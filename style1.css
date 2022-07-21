@@ -97,8 +97,13 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: black;
-    background-color: aliceblue;
+    background-color: rgb(9, 255, 0);
     border-radius: 5px;
+    transition: 900ms;
+}
+
+.main-item-1>a:hover {
+    background-color: crimson;
 }
 
 
@@ -117,6 +122,11 @@ body {
     box-shadow: 0.2vh 0.2vh 0.5vh lightgray;
 }
 
+.blog:hover {
+    box-shadow: 10px 10px 60px grey;
+    transition: 800ms;
+}
+
 .blog-banner {
     padding: 3rem 3rem 0 3rem;
     display: flex;
@@ -128,6 +138,8 @@ body {
     padding: 0.5rem;
     width: 50%;
 }
+
+
 
 .blog-content>h5 {
     line-height: 0;
@@ -144,7 +156,6 @@ body {
     justify-content: center;
     text-align: center;
 }
-
 
 
 
@@ -175,5 +186,11 @@ footer>hr {
     padding: 2rem;
     text-decoration: none;
     text-transform: capitalize;
+    color: lightgray;
+}
+
+.footer-social-links>a {
+    font-size: 3vh;
+    padding: 0.7rem;
     color: lightgray;
 }

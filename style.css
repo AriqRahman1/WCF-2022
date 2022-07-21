@@ -110,10 +110,16 @@ body {
 }
 
 /* blog part  */
+
 .blog {
     border: 1px solid lightgrey;
     border-radius: 10px;
     box-shadow: 0.2vh 0.2vh 0.5vh lightgray;
+}
+
+.blog:hover {
+    box-shadow: 10px 10px 60px grey;
+    transition: 800ms;
 }
 
 .blog>img {
@@ -126,6 +132,21 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    transition: 900ms;
+}
+
+.blog-content>button {
+    background-color: #03fc39;
+    transition: 900ms;
+}
+
+.blog-content>button:hover {
+    background-color: red;
+}
+
+#but {
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .blog-info {
@@ -228,7 +249,8 @@ footer>hr {
     }
 
     .main-item-1 a {
-        width: 100px;
+        width: 130px;
+        color: rgb(0, 0, 0);
     }
 
     .main-item-2 {
